@@ -1,4 +1,4 @@
-<img src="https://github.com/Socwon/Spotify_Summary/assets/101037584/13b559d7-7593-4f7b-832e-623fb1ee88b1" width="700" height="200"/>
+<img src="(https://github.com/user-attachments/assets/21a18d01-0883-4299-a247-909fed87ab4c" width="700" height="200"/>
 
 ## MobileBERT를 활용한 로블록스 리뷰 분석 프로젝트  
 <div>
