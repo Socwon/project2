@@ -42,7 +42,7 @@ MobileBERT 모델을 사용하여 로블록스의 리뷰 데이터를 자동으�
 
 ### 2.2 탐색적 데이터
 - 중립 리뷰를 제외한 데이터 수
-<img src="https://github.com/Socwon/Spotify_Summary/assets/101037584/d45fb3e6-8d97-429c-b428-2c11cf36686d" width="700" height="400"/>
+<img src="https://github.com/user-attachments/assets/4bc01321-5e6e-400d-bd3e-102aa907dd86" width="700" height="400"/>
 
 제일 노래를 많이 낸 아티스트는 'Donna Summer'이며 노래는 191개이고 제일 노래를 적게 낸 아티스트는 5명이며 노래는 1개씩 냈다.
 
