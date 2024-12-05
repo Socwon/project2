@@ -17,40 +17,26 @@
 ### 1.2 문제 정의
 MobileBERT 모델을 사용하여 로블록스의 리뷰 데이터를 자동으로 분석하고, 긍정적 및 부정적 평가를 분석한다. 이를 통해 로블록스 개발자 시점이 되어 사용자 피드백을 효율적으로 파악하고, 서비스 개선 방법을 알아본다.
 
-## 2. 데이터
-### 2.1 원시 데이터
-[Spotify Million Song 데이터셋](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)<br/>
-[Spotify 홈페이지](https://open.spotify.com/)
+## 2. 데이터 수집 방법 (웹 크롤링)
+### 2.1 크롤링 과정
+- **리뷰 사이트 접근** : 로블록스 웹사이트에서 리뷰 데이터를 포함하는 페이지에 접근하여, 각 리뷰의 텍스트 및 평점 정보를 추출하였습니다.
 
-- 데이터명
+- **데이터 추출** : 페이지에서 필요한 정보를 추출하기 위해 BeautifulSoup을 사용하여 HTML 구조에서 리뷰 텍스트(text)와 평점(score)을 선택하고 Python 리스트 형태로 저장했다.
 
-| artist | song | link  | text  |
-|-------|-----|-------|-------|
-|아티스트 이름|노래 제목| 노래 링크 | 노래 가사 |
-
-- 활용할 데이터 예시
-
-| artist | song | link  | text  |
-|-------|-----|-------|-------|
-|Alison Krauss|Maybe| /a/alison+krauss/maybe_20006156.html | Yesterday the odds were stacked In favor of my expectations Flyin' above the rest, Never fa... |
-| Aerosmith | The Hand That Feeds | /z/zz+top/36+22+36_20149356.html  | Doctor, doctor, doctor Please, doctor, doctor, please Doctor, doctor, doctor Feel like a ol...  |
-| .. | .. | ...  | ...  |
-| ZZ Top | 36-22-36 | /b/barbra+streisand/i+wont+last+a+day+without+you_20699679.html  | What, what, what you want? Hey My thing is a real fine thing It's a thing, it's a real fine th...  |
-| ZZ Top | 2000 Blues | /z/zz+top/2000+blues_10198797.html  | A hundred thousand dollars Wouldn't touch the price I paid Of the hundred thousand moments ...  |
+- **데이터 저장** : 추출된 데이터는 JSON 파일로 저장되었다. **reviews_2023_2024.json**로 저장하였으, 이 파일을 통해 이후 분석을 진행했다.
 
 
+### 2.2 수집된 데이터의 형식
+- review : 사용자 리뷰 텍스트
+- score : 해당 리뷰의 평점 (1~5 사이의 값)
+- date : 리뷰 작성 날짜
 
-### 2.2 탐색적 데이터
+
 - 중립 리뷰를 제외한 데이터 수
 <img src="https://github.com/user-attachments/assets/4bc01321-5e6e-400d-bd3e-102aa907dd86" width="700" height="400"/>
 
 평점은 5점이 제일 많고, 3점을 제외한 가장 적은 평점은 2점이다.
 
-- 불용어를 제외한 모든 노래 가사에서 자주 등장하는 키워드 5가지
-<img src="https://github.com/Socwon/Spotify_Summary/assets/101037584/98205e6b-d976-4dbd-9d43-9db8ab37a7ed" width="450" height="400"/>
-
-제일 많이 등장한 키워드는 순서대로 "Love", "Time", "One", "Heart", "I'm" 이다.
-따라서 사랑, 시간에 관련된 주제의 노래가 많이 발표된다는 것을 알 수 있다.
 
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 - 모든 노래의 평균 가사 길이
