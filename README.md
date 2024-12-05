@@ -40,6 +40,7 @@ MobileBERT 모델을 사용하여 로블록스의 리뷰 데이터를 자동으�
 중립 리뷰를 제외한 데이터 수
 
 <img src="https://github.com/user-attachments/assets/4bc01321-5e6e-400d-bd3e-102aa907dd86" width="700" height="400"/>
+
 긍정적인 리뷰가 부정적인 리뷰보다 더 많았다. 이는 사용자들이 대체로 긍정적인 경험을 공유하고 있음을 시사한다.
 
 
