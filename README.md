@@ -54,13 +54,13 @@
 
 ### 3.1 모델 학습
 - 학습 초기
-<img src="https://github.com/user-attachments/assets/45f7b54b-9df4-439f-a5ff-da28aa9b3c3e">
+<img src="https://github.com/user-attachments/assets/45f7b54b-9df4-439f-a5ff-da28aa9b3c3e" width="600" height="300"/>
 
 - 학습 진행
-<img src="https://github.com/user-attachments/assets/1e6bf09f-7f5d-47bb-a80e-2307961312a2">
+<img src="https://github.com/user-attachments/assets/1e6bf09f-7f5d-47bb-a80e-2307961312a2" width="600" height="300"/>
 
 - 최종
-<img src="https://github.com/user-attachments/assets/820fa1a3-7ddb-4fae-9520-71fd4c14043e">
+<img src="https://github.com/user-attachments/assets/820fa1a3-7ddb-4fae-9520-71fd4c14043e" width="600" height="300"/>
 
 
 ### 3.2 
