@@ -49,15 +49,8 @@
 
 
 
-## 3. 학습 데이터 구축
-#### 패키지
-<div>
-<img src="https://img.shields.io/badge/transformers-409FFF?style=flat-square&logo=transformers&logoColor=white"/>
-<img src="https://img.shields.io/badge/torch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-</div>
-<br>
+## 3. KoELECTRA 모델 학습 및 테스트
+본 프로젝트에서는 KoELECTRA 모델을 활용하여 로블록스 리뷰 데이터를 학습하였습니다. 모델은 긍정(1) 및 부정(0) 리뷰를 분류하는 이진 분류 문제로 정의되었으며, 아래와 같은 프로세스를 통해 학습과 평가를 진행하였습니다.
 
 ### 3.1 학습 데이터와 분석 데이터
 | artist | summary | text  | 
