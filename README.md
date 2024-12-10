@@ -35,7 +35,7 @@
 
 ### 2.3 데이터 전처리
 중립 리뷰를 제외한 데이터 수
-<img src="https://github.com/user-attachments/assets/681c3839-105b-4d1b-85e0-cb45f628a20b" width="700" height="400"/>
+<img src="https://github.com/user-attachments/assets/681c3839-105b-4d1b-85e0-cb45f628a20b" width="800" height="300"/>
 
 중립 리뷰를 제외한 12는 부정, 45는 긍정 리뷰 데이터 수 일부 출력 
 
