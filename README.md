@@ -33,7 +33,7 @@
 - **score** : 해당 리뷰의 평점 (1~5 사이의 값)
 - **date** : 리뷰 작성 날짜
 
-## 3. 데이터 전처리
+### 2.3 데이터 전처리
 중립 리뷰를 제외한 데이터 수
 <img src="https://github.com/user-attachments/assets/681c3839-105b-4d1b-85e0-cb45f628a20b">
 
