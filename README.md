@@ -53,8 +53,15 @@
 본 프로젝트에서는 KoELECTRA 모델을 활용하여 로블록스 리뷰 데이터를 학습했다. 모델은 긍정(1) 및 부정(0) 리뷰를 분류하는 이진 분류 문제로 정의되었으며, 아래와 같은 프로세스를 통해 학습과 평가를 진행했다.
 
 ### 3.1 모델 학습
-- Epoch 1
-  
+- 학습 초기
+<img src="https://github.com/user-attachments/assets/45f7b54b-9df4-439f-a5ff-da28aa9b3c3e">
+
+- 학습 진행
+<img src="https://github.com/user-attachments/assets/1e6bf09f-7f5d-47bb-a80e-2307961312a2">
+
+- 최종
+<img src="https://github.com/user-attachments/assets/820fa1a3-7ddb-4fae-9520-71fd4c14043e">
+
 
 ### 3.2 
 
