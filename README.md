@@ -52,17 +52,10 @@
 ## 3. KoELECTRA 모델 학습 및 테스트
 본 프로젝트에서는 KoELECTRA 모델을 활용하여 로블록스 리뷰 데이터를 학습하였습니다. 모델은 긍정(1) 및 부정(0) 리뷰를 분류하는 이진 분류 문제로 정의되었으며, 아래와 같은 프로세스를 통해 학습과 평가를 진행하였습니다.
 
-### 3.1 학습 데이터와 분석 데이터
-| artist | summary | text  | 
-|-------|-----|-------|
-|Unwritten Law|Genocide| Well who are you what do you know And I guess it only goes to show Don't think you're ready for the fall Do you think you really wanta play.. |
-| Tori Amos | Butterfly | Stinky soul get a little lost in my own Hey General, need a little love in that hole of yours One ways, now, and..|
-| .. | .. | ... |
-| John Denver | Downhill Stuff | Blue river blues I'd rather be outside Here I am inside Watching it rain Blue river blues I'd rather be somewhere.. | 
-| Judy Garland | Why Was I Born? | Why was I born? Why am I livin'? What do I get? What am I givin'? Why do I want a thing I.. | 
+### 3.1 전처리 결과
+<img src="https://github.com/user-attachments/assets/681c3839-105b-4d1b-85e0-cb45f628a20b">
 
-데이터셋을 학습 데이터와 분석 데이터로 분할하였다.
-원본 데이터셋의 link열은 삭제하였으며 song열의 이름을 summary로 변경하고 모델 학습의 효율성을 높이기 위해 학습 데이터는 3000개의 샘플을, 분석 데이터는 5000개의 샘플을 랜덤으로 추출하여 새로운 데이터셋을 만들었다.
+중립 리뷰를 제외한 12는 부정, 45는 긍정 리뷰 데이터 수 출력 
 
 ### 3.2 모델 학습
 각 가사를 입력으로 받고 해당하는 제목을 목표 출력으로 설정하여 이 모델을 노래 제목 예측에 맞게 미세 조정을 수행하여 학습했다.
