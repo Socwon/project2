@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/21a18d01-0883-4299-a247-909fed87ab4c" width="700" height="400"/>
 
-## MobileBERT를 활용한 로블록스 리뷰 분석 프로젝트  
+## Koelectra를 활용한 로블록스 리뷰 분석 프로젝트  
 <div>
 <img src="https://img.shields.io/badge/python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/> 
 <img src="https://img.shields.io/badge/pytorch-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white"/> 
